@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Examen práctico Parcial 3</title>
+	<link rel="stylesheet" type="text/css" href="estiloexam3.css">
+</head>
+<body>
+	<div>
+		<form>
+		<label for="Horas">Horas de Estacionamiento</label><br/>
+		<input type="number" name="Horas" id="estacionamiento" placeholder="Inserta Hora" required>
+		<br/><br/>
+		<label for="transporte">Transporte utilizado</label><br/>
+		<select name="transporte" id="transporte" required>
+			<option value="20">Auto Chico</option>
+			<option value="30">Camioneta</option>
+			<option value="40">Camión</option>
+			<option value="10">Motocicleta</option>
+		</select>
+		<br/><br/>
+		<label for="calcular"></label>
+		<input type="submit" value="Calcular total a pagar">
+		<br/>
+	</form>
+	<p>Total a pagar: </p>
+	<p id="resultado"></p>
+	</div>
+
+	<script type="text/javascript" src="examjss.js"></script>
+</body>
+</html>
