@@ -1,0 +1,52 @@
+.contenedor
+{
+	position: relative;
+	background: gray;
+	height: 100px;
+}
+.caja1
+{
+	position: relative;
+	background: orange;
+	height: 50px;
+	left: 10px;
+}
+.caja2
+{
+	position: absolute;/*Se quita el flujo de posicionado y se puede colocar donde sea*/
+	background: blue;
+	height: 150px;
+	width: 150px;
+	left: 50px;
+	top: 25px;
+	z-index: -1; /*Para mandar atras(-) o adelante (+) por default es 0*/
+}
+.caja3
+{
+	position: absolute;
+	background: pink;
+	width: 125px;
+	height: 125px;
+	right: 75px;
+	top: 40px;
+	z-index: 2;
+}
+.caja4
+{
+	position: absolute;
+	width: 75px;
+	height: 75px;
+	background: skyblue;
+	top: 55px;
+	right: 55px;
+	z-index: 3;
+}
+.caja5
+{
+	position: fixed;/*Contenedor fijo*/
+	right: 0px;
+	bottom: 0px;
+	border: 2px solid red;
+	width: 50px;
+	z-index: 4;
+}

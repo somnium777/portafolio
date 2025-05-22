@@ -1,0 +1,76 @@
+        body {
+            font-size: 16px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+        .unidad {
+            border: 1px solid #000;
+            padding: 10px;
+            text-align: center;
+        }
+        .px {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+        }
+        .pt {
+            width: 72pt;
+            height: 72pt;
+            background-color: lightgreen;
+        }
+        .in {
+            width: 1in;
+            height: 1in;
+            background-color: lightcoral;
+        }
+        .cm {
+            width: 1cm;
+            height: 1cm;
+            background-color: lightgoldenrodyellow;
+        }
+        .mm {
+            width: 10mm;
+            height: 10mm;
+            background-color: lightpink;
+        }
+        .pc {
+            width: 1pc;
+            height: 1pc;
+            background-color: lightgray;
+        }
+        .percent {
+            width: 50%;
+            height: 50%;
+            background-color: lightseagreen;
+        }
+        .em {
+            width: 10em;
+            height: 10em;
+            background-color: lightsteelblue;
+        }
+        .rem {
+            width: 10rem;
+            height: 10rem;
+            background-color: lightcyan;
+        }
+        .vw {
+            width: 10vw;
+            height: 10vw;
+            background-color: lightyellow;
+        }
+        .vh {
+            width: 10vh;
+            height: 10vh;
+            background-color: lightgoldenrodyellow;
+        }
+        .vmin {
+            width: 10vmin;
+            height: 10vmin;
+            background-color: lightcoral;
+        }
+        .vmax {
+            width: 10vmax;
+            height: 10vmax;
+            background-color: lightblue;
+        }

@@ -1,0 +1,48 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+.contenedor
+{
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+}
+.encabezado
+{
+	padding: 15px;
+	background: red;
+	color: white;
+	text-align: center;
+	font-size: 25px;
+}
+.contenido
+{
+	display: flex;
+	background: blue;
+	color: white;
+	flex-direction: space-between;
+	flex: 1;
+}
+.caja
+{
+	border: 1px solid white;
+	margin: 15px;
+	padding: 20px;
+	flex: 1;
+	box-shadow: 5px 5px black;
+}
+.pie
+{
+	padding: 20px;
+	background: beige;
+	text-align: center;
+	font-size: 14px;
+}
+@media(max-width:500px)
+{
+	.contenido
+	{
+		flex-direction: column;
+	}
+}

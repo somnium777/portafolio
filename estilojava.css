@@ -1,0 +1,37 @@
+*
+{
+ text-align: center;
+ font-family: verdana;
+ margin: auto;
+ border-collapse: collapse;
+}
+
+body
+{
+	background: #4a1289;
+}
+
+.general
+{
+	border: 2px solid gray;
+	display: block;
+	align-items: center;
+	justify-content: center;
+	width: 70%;
+	background-color: black;
+	color: white;
+}
+input[type="text"],input[type="button"]
+{
+	border-radius: 10px;
+	padding: 10px;
+
+}
+input[type="text"],input[type="button"]:hover
+{
+	background: #d189f2;
+}
+.resultados
+{
+	background: #ebb013;
+}
